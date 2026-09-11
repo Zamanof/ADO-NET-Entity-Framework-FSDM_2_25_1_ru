@@ -43,13 +43,13 @@ Connection modes:
 
 using Microsoft.Data.SqlClient;
 
-SqlConnection connection = default;
+//SqlConnection connection = default;
 
-string connectionString = @"Server=STHQ0124-01;
-                            Database=AdoTest;
-                            User ID=admin;
-                            Password=admin;
-                            Trust Server Certificate=True;";
+//string connectionString = @"Server=STHQ0124-01;
+//                            Database=AdoTest;
+//                            User ID=admin;
+//                            Password=admin;
+//                            Trust Server Certificate=True;";
 
 #region DatabaseConnection
 //connection = new SqlConnection(connectionString);
@@ -94,4 +94,3 @@ string connectionString = @"Server=STHQ0124-01;
 //    command.ExecuteNonQuery();
 //}
 #endregion
-
